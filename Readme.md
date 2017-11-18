@@ -16,16 +16,16 @@ You will also need to install and configure racer:
 
 Racer needs to be added to your path:
 * On Linux:
-        In your `.profile` file, add those lines:
-        ```bash
-        export PATH="$PATH:~/.cargo/bin" # This, or something similar should already be here
-        export RUST_SRC_PATH+"$(rustc --print sysroot)/lib/rustlib/src/rust/src"
-        ```
+In your `.profile` file, add those lines:
+```sh
+export PATH="$PATH:~/.cargo/bin" # This, or something similar should already be here
+export RUST_SRC_PATH+"$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+```
 
 ## Getting Started
 
 1. [Visual Studio Code](VSCode.md)
 2. Sublime Text 3
-3. Vim
+3. [Vim](Vim.md)
 4. Atom
 5. IntelliJ IDEA
