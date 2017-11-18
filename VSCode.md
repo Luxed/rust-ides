@@ -29,13 +29,13 @@ In VSCode, click on File (top bar), open a folder and open the `~/rust/hello_wor
 Open the `src/main.rs` file.  
 
 5. The Rust VSCode plugin will ask you a series of questions:  
-For the first one (asking you what toolchain to use), click on close and then select `stable`.  
+* For the first one (asking you what toolchain to use), click on close and then select `stable`.  
 ![VSCode02](images/VSCode_02Toolchain.PNG)  
-It will then ask you for the mode you want to use, select `RLS`.  
+* It will then ask you for the mode you want to use, select `RLS`.  
 ![VSCode03](images/VSCode_03Mode.PNG)
-It will ask you again for the toolchain to use. You won't have another choice but to use the `nightly` this time.  
-The next question is if you want to use `rustfmt` for formatting, this is optionnal.  
-The best way to install it would be to go inside your console, do the following command: `cargo install rustfmt` and then click on yes (I had some issues on windows with the automatic install of Rust crates with VSCode).  
+* It will ask you again for the toolchain to use. You won't have another choice but to use the `nightly` this time.  
+* The next question is if you want to use `rustfmt` for formatting, this is optionnal.  
+* The best way to install it would be to go inside your console, do the following command: `cargo install rustfmt` and then click on yes (I had some issues on windows with the automatic install of Rust crates with VSCode).  
 ![VSCode04](images/VSCode_04Rustfmt.PNG)
 
 6. You are now ready to code!
