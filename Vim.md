@@ -7,7 +7,7 @@
 Follow instructions here: [RLS](https://github.com/rust-lang-nursery/rls#setup).  
 You shouldn't need to configure Racer as it has been done before.
 
-## Linux (Ubuntu based dstributions)
+## Linux (Ubuntu based distributions)
 
 1. Install Python 3: (or use the python version you already have)  
 ```sh
