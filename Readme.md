@@ -5,6 +5,22 @@ On this repository you will find simple tutorials describing you how to set-up y
 ## Setting up Rust
 
 Rust can be installed multiple different ways.
+Using [Rustup](https://www.rustup.rs/) is the preferred way as it will be the same on every machine. (choose the default installation)
+
+You then need to install rust's source code for racer to find its completion:
+`rustup component add rust-src`
+
+You will also need to install and configure racer:
+(you might need to install `gcc` with your distribution's package management tool)
+`cargo install racer`
+
+Racer needs to be added to your path:
+* On Linux:
+        In your `.profile` file, add those lines:
+        ```bash
+        export PATH="$PATH:~/.cargo/bin" # This, or something similar should already be here
+        export RUST_SRC_PATH+"$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+        ```
 
 ## Getting Started
 
