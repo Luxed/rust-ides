@@ -1,9 +1,10 @@
 # Vim Setup
 
 1. [Linux](#linux-ubuntu-based-distributions)
-2. [Windows](#windows-10)
-
-0. install Rust RLS (this step is valid for Windows and Linux)  
+2. [Windows](#windows-10)  
+  
+### For both
+Install Rust RLS (this step is valid for Windows and Linux)  
 Follow instructions here: [RLS](https://github.com/rust-lang-nursery/rls#setup).  
 You shouldn't need to configure Racer as it has been done before.
 
