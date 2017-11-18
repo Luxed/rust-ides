@@ -14,7 +14,7 @@ Go here: [Download VSCode](https://code.visualstudio.com/download)
 2. Install the rust plugin in VSCode:  
 In the program, click on View (top bar) and then extensions.  
 Search for `Rust`. Install the first extension, reload the program.  
-[VSCode01](images/VSCode_01Rust.PNG)  
+![VSCode01](images/VSCode_01Rust.PNG)  
 
 3. Create a rust hello world:  
 Simply execute those commands:  
@@ -30,13 +30,13 @@ Open the `src/main.rs` file.
 
 5. The Rust VSCode plugin will ask you a series of questions:  
 For the first one (asking you what toolchain to use), click on close and then select `stable`.  
-[VSCode02](images/VSCode_02Toolchain.PNG)  
+![VSCode02](images/VSCode_02Toolchain.PNG)  
 It will then ask you for the mode you want to use, select `RLS`.  
-[VSCode03](images/VSCode_03Mode.PNG)
+![VSCode03](images/VSCode_03Mode.PNG)
 It will ask you again for the toolchain to use. You won't have another choice but to use the `nightly` this time.  
 The next question is if you want to use `rustfmt` for formatting, this is optionnal.  
 The best way to install it would be to go inside your console, do the following command: `cargo install rustfmt` and then click on yes (I had some issues on windows with the automatic install of Rust crates with VSCode).  
-[VSCode04](images/VSCode_04Rustfmt.PNG)
+![VSCode04](images/VSCode_04Rustfmt.PNG)
 
 6. You are now ready to code!
 Test everything out!
