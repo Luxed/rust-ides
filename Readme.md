@@ -19,7 +19,7 @@ Racer needs to be added to your path:
 In your `.profile` file, add those lines:
 ```sh
 export PATH="$PATH:~/.cargo/bin" # This, or something similar should already be here
-export RUST_SRC_PATH+"$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 ```
 
 ## Getting Started
