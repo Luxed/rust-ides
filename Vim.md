@@ -1,13 +1,13 @@
 # Vim Setup
 
-1. [Linux](#linux-ubuntu-based-distributions)
-2. [Windows](#windows-10)  
-  
-### For both
+### For Windows and Linux
 Install Rust RLS (this step is valid for Windows and Linux)  
 Follow instructions here: [RLS](https://github.com/rust-lang-nursery/rls#setup).  
 You shouldn't need to configure Racer as it has been done before.
 
+1. [Linux](#linux-ubuntu-based-distributions)
+2. [Windows](#windows-10)  
+  
 ## Linux (Ubuntu based distributions)
 
 1. Install Python 3: (or use the python version you already have)  
@@ -92,8 +92,7 @@ We will use [Vim-Plug](https://github.com/junegunn/vim-plug) for the vimrc examp
 Use the instructions provided on the github page to install the plugin manager.  
 
 4. Create the correct vimrc file:  
-/!\ WARNING: `Ale` and `Syntastic` don't work on Windows for now. /!\
-(the rust toolchain location can be found with this command: `rustc --print sysroot`)  
+/!\ WARNING: `Ale` doesn't work on Windows for now. /!\   
 The Vimrc file on windows should be in `~\_vimrc`
 ```vim
 set encoding=utf-8
@@ -101,11 +100,11 @@ set encoding=utf-8
 call plug#begin()
 
 Plug 'valloric/youcompleteme'
-Plug 'w0rp/ale'
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
 
-let g:ale_linters = {'rust': ['rls']}
+let g:syntastic_rust_checkers = ['rustc']
 ```
 
 5. Setting up youcompleteme for rust syntax:  
