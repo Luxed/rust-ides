@@ -92,19 +92,18 @@ We will use [Vim-Plug](https://github.com/junegunn/vim-plug) for the vimrc examp
 Use the instructions provided on the github page to install the plugin manager.  
 
 4. Create the correct vimrc file:  
-/!\ WARNING: `Ale` doesn't work on Windows for now. /!\   
-The Vimrc file on windows should be in `~\_vimrc`
+The Vimrc file on windows should be in `~\_vimrc`  
 ```vim
 set encoding=utf-8
 
 call plug#begin()
 
 Plug 'valloric/youcompleteme'
-Plug 'vim-syntastic/syntastic'
+Plug 'w0rp/ale'
 
 call plug#end()
 
-let g:syntastic_rust_checkers = ['rustc']
+let g:ale_linters = {'rust': ['rls']}
 ```
 
 5. Setting up youcompleteme for rust syntax:  
