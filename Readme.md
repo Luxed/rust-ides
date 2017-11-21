@@ -27,6 +27,6 @@ export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 1. [Visual Studio Code](VSCode.md)
 2. [Sublime Text 3](Sublime.md)
 3. [Vim](Vim.md)
-4. [Emacs](https://github.com/apiraino/emacs_reference/blob/master/.emacs.d/personal/jman.el)
+4. [Emacs](https://github.com/apiraino/emacs_reference/blob/master/.emacs.d/personal/jman.el) (Rust configs are at the end of the file, you will need [Flycheck-Rust](https://github.com/flycheck/flycheck-rust))
 5. Atom
 6. IntelliJ IDEA
