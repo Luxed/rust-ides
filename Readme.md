@@ -27,5 +27,6 @@ export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 1. [Visual Studio Code](VSCode.md)
 2. [Sublime Text 3](Sublime.md)
 3. [Vim](Vim.md)
-4. Atom
-5. IntelliJ IDEA
+4. [Emacs](https://github.com/apiraino/emacs_reference/blob/master/.emacs.d/personal/jman.el)
+5. Atom
+6. IntelliJ IDEA
