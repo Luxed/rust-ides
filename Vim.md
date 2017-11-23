@@ -59,7 +59,7 @@ Execute the following commands in Vim: `:source %` and then `:PlugInstall`
 Go into the following directory: `~/.vim/plugged/youcompleteme`  
 And execute the following command: `./install.py --rust-completer` (you might need to install `CMake`, `g++` and `python-dev` for this to work)  
 
-6. You're done ! everything works ! (I hope)
+6. You're done ! everything works ! Create a cargo project to test: `cargo new hello_world --bin`
 
 ## Windows 10
 
@@ -110,6 +110,9 @@ let g:ale_linters = {'rust': ['rls']}
 Go into the following directory: `~\vimfiles\plugged\youcompleteme`  
 And execute the following command: `.\install.py --rust-completer` (you might need to install [CMake](https://cmake.org/download/) for this to work)  
 
+6. You're done ! everything works ! Create a cargo project to test: `cargo new hello_world --bin`
+
 ## Known Issues
 * Error 404 when updating apt on Ubuntu 16.10:  
 Simply force the xenial repo to be used. After adding the repo with `add-apt-repository`, you can edit the file found in `/etc/apt/sources.list.d/` that corresponds to the repo (it begins by `jonathonf`) and replace every occurence of `yakkety` (in this case) with `xenial`
+* A Cargo project is needed for error checking to work
