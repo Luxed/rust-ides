@@ -24,7 +24,7 @@ export RUST_SRC_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
 
 ## Notes
 
-It seems like `cargo check` and `RLS` don't like big complex projects (like rust's source itself).  
+It seems like `cargo check` and `RLS` (Rust's error checking tools) don't like big complex projects (like rust's source itself).  
 No solution has been found yet for those kinds of projects.  
 
 ## Getting Started
